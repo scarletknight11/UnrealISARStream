@@ -1,0 +1,59 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2025.0.0",
+	"FriendlyName": "Hololight Stream",
+	"Description": "Hololight Stream helps to create XR applications that utilize remote rendering on high performance computers and send the rendered scene as a video stream to XR-devices.",
+	"Category": "Virtual Reality",
+	"CreatedBy": "Holo-Light GmbH",
+	"CreatedByURL": "https://hololight.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://hololight.com/contact",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "StreamHMD",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "StreamInput",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "StreamMicrophoneCapture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "XRBase",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioCapture",
+			"Enabled": true
+		}
+	]
+}

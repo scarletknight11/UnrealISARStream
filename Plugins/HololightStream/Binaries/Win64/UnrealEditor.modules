@@ -1,0 +1,9 @@
+{
+	"BuildId": "37670630",
+	"Modules": 
+	{
+		"StreamHMD": "UnrealEditor-StreamHMD.dll",
+		"StreamInput": "UnrealEditor-StreamInput.dll",
+		"StreamMicrophoneCapture": "UnrealEditor-StreamMicrophoneCapture.dll"
+	}
+}

@@ -1,0 +1,18 @@
+/*
+ * Copyright 2025 Holo-Light GmbH. All Rights Reserved.
+ */
+
+#include "/Engine/Private/Common.ush"
+
+Texture2D SceneTexture;
+SamplerState SceneSampler;
+
+void StreamCorrectionPS(
+	FScreenVertexOutput Input,
+	out float4 OutColor : SV_Target0
+	)
+{
+    const float4 SceneColor = Texture2DSampleLevel(SceneTexture, SceneSampler, Input.UV, 0);
+	OutColor = SceneColor;
+    OutColor.a = 1.0f - OutColor.a;
+}

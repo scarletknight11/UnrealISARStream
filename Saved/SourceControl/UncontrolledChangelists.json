@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/sanji/OneDrive/Documents/Unreal Projects/ISARStream/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/sanji/OneDrive/Documents/Unreal Projects/ISARStream/Content/VRTemplate/Audio/Fire01.uasset",
+				"C:/Users/sanji/OneDrive/Documents/Unreal Projects/ISARStream/Content/Level.umap",
+				"C:/Users/sanji/OneDrive/Documents/Unreal Projects/ISARStream/Content/Material.uasset",
+				"C:/Users/sanji/OneDrive/Documents/Unreal Projects/ISARStream/Content/soldier040.uasset",
+				"C:/Users/sanji/OneDrive/Documents/Unreal Projects/ISARStream/Content/StarterContent/Maps/Minimal_Default.umap",
+				"C:/Users/sanji/OneDrive/Documents/Unreal Projects/ISARStream/Content/Plugins/HololightStream/Resources/Icon128.uasset"
+			]
+		}
+	]
+}
